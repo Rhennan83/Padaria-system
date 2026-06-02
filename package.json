@@ -1,0 +1,19 @@
+{
+  "name": "padaria-sistema",
+  "version": "1.1.0",
+  "description": "Sistema de Padaria",
+  "main": "src/main.ts",
+  "scripts": {
+    "start": "npx ts-node src/main.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/readline-sync": "^1.4.4",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0"
+  }
+}
